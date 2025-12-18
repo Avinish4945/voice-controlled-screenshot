@@ -33,3 +33,21 @@ The screenshot is captured when any of the following words are detected:
 ### 1️⃣ Install dependencies
 ```bash
 pip install sounddevice vosk pyautogui
+
+2️⃣ Download VOSK Model
+
+Download an English model from: https://alphacephei.com/vosk/models
+
+Extract it and rename the folder to:
+
+model
+
+Place it in the project root directory.
+
+3️⃣ Run the program
+
+python main.py
+
+⛔ Exit Command
+
+Say "exit" to stop the program.
